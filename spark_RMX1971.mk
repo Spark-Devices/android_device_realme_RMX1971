@@ -4,8 +4,8 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common ProjectElixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common SparkOS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -15,10 +15,14 @@ TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := aosp_RMX1971
+PRODUCT_NAME := spark_RMX1971
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme 5 Pro
 PRODUCT_MANUFACTURER := realme
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Official
+SPARK_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
