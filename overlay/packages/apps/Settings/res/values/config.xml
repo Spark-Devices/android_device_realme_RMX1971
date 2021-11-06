@@ -22,4 +22,7 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
+    <!-- About SparkOS -->
+    <string name="spark_maintainer">Krish Walecha (Mxlfunction)</string>
+
 </resources>
