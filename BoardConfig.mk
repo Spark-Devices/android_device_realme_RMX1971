@@ -23,3 +23,6 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
 -include vendor/realme/RMX1971/BoardConfigVendor.mk
+
+# System props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
