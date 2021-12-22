@@ -1,27 +1,18 @@
 [
     {
         "repository": "android_device_realme_sdm710-common",
-        "target_path": "device/realme/sdm710-common",
-        "branch": "eleven"
+        "target_path": "device/realme/sdm710-common"
     },
     {
         "repository": "android_kernel_realme_sdm710-common",
-        "target_path": "kernel/realme/sdm710",
-        "branch": "eleven"
+        "target_path": "kernel/realme/sdm710"
     },
     {
         "repository": "android_vendor_realme_sdm710-common",
-        "target_path": "vendor/realme/sdm710-common",
-        "branch": "eleven"
+        "target_path": "vendor/realme/sdm710-common"
     },
     {
         "repository": "android_vendor_realme_RMX1971",
-        "target_path": "vendor/realme/RMX1971",
-        "branch": "eleven"
-    },
-    {
-        "repository": "android_device_realme_RMX1971",
-        "target_path": "device/realme/RMX1971",
-        "branch": "eleven"
+        "target_path": "vendor/realme/RMX1971"
     }
 ]
