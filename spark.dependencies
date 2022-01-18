@@ -5,7 +5,7 @@
     },
     {
         "repository": "android_kernel_realme_sdm710-common",
-        "target_path": "kernel/realme/sdm710"
+        "target_path": "kernel/realme/sdm710-common"
     },
     {
         "repository": "android_vendor_realme_sdm710-common",
