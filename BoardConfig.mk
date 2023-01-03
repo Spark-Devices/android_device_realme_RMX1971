@@ -12,6 +12,9 @@ DEVICE_PATH := device/realme/RMX1971
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1971,RMX1971CN
 
+# Device properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # Kernel
 TARGET_KERNEL_CONFIG := KharaMe_defconfig
 
