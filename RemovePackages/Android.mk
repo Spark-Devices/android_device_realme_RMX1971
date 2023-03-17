@@ -9,11 +9,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome-Stub \
     Drive \
     Maps \
-    Photos \
     PrebuiltGmail \
     Videos \
-    YouTube \
-    YouTubeMusicPrebuilt
+    YouTube
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
