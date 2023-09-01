@@ -9,7 +9,10 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome-Stub \
     Drive \
     Maps \
+    Photos \
     PrebuiltGmail \
+    RecorderPrebuilt \
+    SafetyHubPrebuilt \
     Videos \
     YouTube
 LOCAL_UNINSTALLABLE_MODULE := true
