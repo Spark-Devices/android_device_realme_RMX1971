@@ -5,6 +5,7 @@
 #
 
 # Inherit some common SparkOS stuff.
+TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
